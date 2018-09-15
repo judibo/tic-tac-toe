@@ -1,0 +1,54 @@
+h2 {
+    margin: auto;
+    text-align: center;
+    color: palevioletred;
+    margin: 30px 0;
+}
+.game {
+    width: 300px;
+    height: 300px; 
+    text-align: center;
+    margin: auto;
+    background-color: pink;
+
+}
+.field {
+    display: block;
+    float: left;
+    width: 98px;
+    height: 98px;
+}
+
+
+#one, #two, #three {
+    border-bottom: 2px solid black;
+}
+#two {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+#four, #five, #six {
+    border-bottom: 2px solid black;
+}
+#five {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+#eight {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#reset {
+    background-color: transparent;
+    display: block;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    background-color: #f5a432;
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+}
