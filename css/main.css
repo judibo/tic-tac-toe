@@ -1,5 +1,7 @@
-h2 {
+header {
     margin: auto;
+}
+h2 {
     text-align: center;
     color: palevioletred;
     margin: 30px 0;
@@ -9,32 +11,34 @@ h2 {
     height: 300px; 
     text-align: center;
     margin: auto;
-    background-color: pink;
 
 }
 .field {
     display: block;
     float: left;
     width: 98px;
-    height: 98px;
+    height: 78px;
+    background-color: pink;
+    text-align: center;
+    padding-top: 20px;
+
 }
 
-
-#one, #two, #three {
+#field1, #field2, #field3 {
     border-bottom: 2px solid black;
 }
-#two {
+#field2 {
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
-#four, #five, #six {
+#field4, #field5, #field6 {
     border-bottom: 2px solid black;
 }
-#five {
+#field5 {
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
-#eight {
+#field8 {
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
@@ -51,4 +55,18 @@ button {
     color: black;
     font-size: 15px;
     margin-top: 20px;
+}
+
+p {
+    float: left;
+}
+
+#player {
+        margin: auto;
+        width: 252px;
+        text-align: center;
+}
+
+img {
+    width: 50px;
 }
